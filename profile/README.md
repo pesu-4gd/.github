@@ -1,4 +1,4 @@
-# 🏢 Organization Name — Engineering & Operations Handbook
+# 🏢 PESU — Engineering & Operations Handbook
 
 **Last Updated:** YYYY-MM-DD  
 **Owner:** [Name / Team / Role]  
@@ -185,13 +185,4 @@ Track updates to this README / handbook.
 | YYYY-MM-DD | Name       | Updated tech stack tools |
 | …          | …          | …               |
 
----
 
-> **Next Steps:**  
-> - Copy this file into your org’s central repo (e.g. `.github/README.md` or an internal “handbook” repo).  
-> - Insert real content, links, diagrams, org charts, etc.  
-> - Assign an owner or rotating maintainers to keep it fresh.  
-> - Encourage all teams to reference it and link back to it.  
-
-If you like, I can generate a version tailored to your tech stack (e.g. Node.js / Python / AWS / Kubernetes) or embed skeleton links to your existing team repos. Would you like me to prepare that?
-::contentReference[oaicite:0]{index=0}
