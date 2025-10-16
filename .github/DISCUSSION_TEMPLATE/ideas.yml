@@ -43,7 +43,7 @@ body:
     id: impact
     attributes:
       label: Expected impact
-    description: Users affected, DX, performance, security, ops, cost.
+      description: Users affected, DX, performance, security, ops, cost.
       placeholder: Who benefits and how? Any risks?
 
   - type: checkboxes
