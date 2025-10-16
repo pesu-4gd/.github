@@ -1,7 +1,5 @@
-name: Ideation
-description: Propose an idea for discussion and early feedback before it becomes an issue.
-labels: [idea, discussion]
 title: "[Idea]: "
+labels: [idea, discussion]
 body:
   - type: markdown
     attributes:
@@ -45,7 +43,7 @@ body:
     id: impact
     attributes:
       label: Expected impact
-      description: Users affected, DX, performance, security, ops, cost.
+    description: Users affected, DX, performance, security, ops, cost.
       placeholder: Who benefits and how? Any risks?
 
   - type: checkboxes
@@ -75,4 +73,3 @@ body:
       label: Suggested next steps
       description: What decision or experiment should we make first?
       placeholder: e.g., Collect benchmarks; draft RFC; create spike branch.
-
