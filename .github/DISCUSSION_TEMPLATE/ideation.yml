@@ -1,0 +1,78 @@
+name: Ideation
+description: Propose an idea for discussion and early feedback before it becomes an issue.
+labels: [idea, discussion]
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting an ideation thread! Keep it concise and decision-friendly.
+
+  - type: input
+    id: goal
+    attributes:
+      label: One-line goal / outcome
+      placeholder: e.g., Evaluate switching to pnpm for faster installs
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Current state, related links (issues/PRs/docs), constraints.
+      placeholder: What problem exists today? Who is affected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach (initial sketch)
+      description: High-level idea; diagrams or references welcome.
+      placeholder: Outline the idea in 3–7 bullets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other ways to solve this; why not those?
+      placeholder: List 1–3 alternatives with quick pros/cons.
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected impact
+      description: Users affected, DX, performance, security, ops, cost.
+      placeholder: Who benefits and how? Any risks?
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Readiness checklist
+      options:
+        - label: I searched existing discussions to avoid duplicates
+          required: true
+        - label: I linked related issues/PRs or docs
+        - label: I’m open to co-owning next steps
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Small (quick win)
+        - Medium
+        - Large / multi-repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: next_steps
+    attributes:
+      label: Suggested next steps
+      description: What decision or experiment should we make first?
+      placeholder: e.g., Collect benchmarks; draft RFC; create spike branch.
+
