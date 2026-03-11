@@ -1,585 +1,349 @@
-# 🏢 PES — Engineering & Operations Handbook (WIP)
+# 4Good.AI — Organisation Handbook
 
-<div align="center">
+**Last Updated:** 2025-03  
+**Owner:** Engineering Excellence Team  
+**Status:** Active | Version 2.0
 
-**Last Updated:** YYYY-MM-DD  
-**Owner:** [Name / Team / Role]  
-
-<img src="https://img.shields.io/badge/Status-Active-27ae60?style=for-the-badge" alt="Status">
-<img src="https://img.shields.io/badge/Version-2.0-1a472a?style=for-the-badge" alt="Version">
-<img src="https://img.shields.io/badge/Uptime-99.9%25-f4a261?style=for-the-badge" alt="Uptime">
-
-### 🚀 *Engineering Excellence Through Standardization*
-
-</div>
+> *"We build technology for good — purposeful products, principled engineering, people-first culture."*
 
 ---
 
-## 📋 **Table of Contents**
+## Who We Are
 
-<div align="center">
+**4Good.AI** is an AI-first product and engineering organisation building intelligent systems that create real-world impact. We operate across multiple product lines under a unified engineering culture — one that values clarity, ownership, and continuous improvement.
 
-[![Mission](https://img.shields.io/badge/1️⃣_Mission_&_Vision-1a472a?style=flat-square)](#mission--vision)
-[![Overview](https://img.shields.io/badge/2️⃣_Overview-2d5a3d?style=flat-square)](#high-level-overview)
-[![Structure](https://img.shields.io/badge/3️⃣_Organization_Structure-f4a261?style=flat-square)](#organization-structure)
-[![Governance](https://img.shields.io/badge/4️⃣_Governance-e76f51?style=flat-square)](#governance--decision-making)
-[![Standards](https://img.shields.io/badge/5️⃣_Standards-8e44ad?style=flat-square)](#standards--conventions)
-[![Tech Stack](https://img.shields.io/badge/6️⃣_Tech_Stack-1a472a?style=flat-square)](#tech-stack--tools)
-[![Onboarding](https://img.shields.io/badge/7️⃣_Onboarding-2d5a3d?style=flat-square)](#onboarding--getting-started)
-[![Processes](https://img.shields.io/badge/8️⃣_Processes-f4a261?style=flat-square)](#processes--workflows)
-[![Documentation](https://img.shields.io/badge/9️⃣_Documentation-e76f51?style=flat-square)](#documentation--knowledge-base)
-[![Security](https://img.shields.io/badge/🔟_Security-8e44ad?style=flat-square)](#security-compliance--access)
-
-</div>
+If you are new here, this is your starting point. Everything you need to understand how we work, what we build, and how to contribute is either here or linked from here.
 
 ---
 
-## 🎯 **Mission & Vision**
+## Table of Contents
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 🚀 **Mission**
-*What we exist to deliver*
-
-**Engineering Excellence • Reliability • Innovation • Collaboration**
-
-</td>
-<td align="center" width="50%">
-
-### 🌟 **Vision**  
-*Where we're heading*
-
-**Industry-leading engineering practices that drive business success**
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 💎 **Core Principles & Values**
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Shared_Ownership-1a472a?style=flat-square" alt="Shared Ownership">
-<img src="https://img.shields.io/badge/Continuous_Improvement-2d5a3d?style=flat-square" alt="Continuous Improvement">
-<img src="https://img.shields.io/badge/Reliability_First-f4a261?style=flat-square" alt="Reliability First">
-<img src="https://img.shields.io/badge/Collaborative_Excellence-e76f51?style=flat-square" alt="Collaborative Excellence">
-
-</div>
+1. [Mission & Vision](#mission--vision)
+2. [What We Build — 4Good Products](#what-we-build--4good-products)
+3. [Organisation Structure](#organisation-structure)
+4. [How We Work — Systems & Flows](#how-we-work--systems--flows)
+5. [Project Planning & Sprint Structure](#project-planning--sprint-structure)
+6. [Issue & Discussion Workflow](#issue--discussion-workflow)
+7. [Issue Templates](#issue-templates)
+8. [Bug Triage & Resolution](#bug-triage--resolution)
+9. [Team KRAs](#team-kras)
+10. [Contributing Standards](#contributing-standards)
+11. [Code of Conduct](#code-of-conduct)
+12. [Dev Cookbook](#dev-cookbook)
+13. [Quality Management System (QMS)](#quality-management-system-qms)
+14. [Key Links & Resources](#key-links--resources)
+15. [Contacts & Escalation](#contacts--escalation)
+16. [Glossary](#glossary)
 
 ---
 
-## 📖 **High-Level Overview**
+## Mission & Vision
 
-<div align="center">
+**Mission:** Build AI-powered products that are ethical, accessible, and genuinely useful for people and organisations.
 
-<img src="https://img.shields.io/badge/👥_Audience-Engineering_Teams-1a472a?style=for-the-badge" alt="Audience">
-<img src="https://img.shields.io/badge/🎯_Purpose-Organization_Standards-2d5a3d?style=for-the-badge" alt="Purpose">
-<img src="https://img.shields.io/badge/📚_Scope-Cross_Team_Processes-f4a261?style=for-the-badge" alt="Scope">
+**Vision:** To be a trusted engineering organisation where great ideas become great products — with discipline, speed, and integrity.
 
-</div>
-
-This handbook serves as the single source of truth for all Engineering, Operations, Product, QA, and related teams. It documents how we operate across the organization: processes, standards, tooling, team coordination, and decision-making frameworks.
-
-**Team-specific documentation should link back to this central handbook.**
+**Core Values:**
+- Shared ownership — everyone is responsible for quality
+- Reliability first — we ship things that work
+- Continuous improvement — we get better every sprint
+- Collaborative excellence — we build together, not in silos
 
 ---
 
-## 🏗️ **Organization Structure**
+## What We Build — 4Good Products
 
-<div align="center">
+We maintain multiple products under the 4Good umbrella. Each product has its own repository, team, and roadmap — but all follow the shared standards defined in this handbook.
 
-```mermaid
-graph TD
-    A[🏢 Engineering Leadership] --> B[🛠️ Platform Teams]
-    A --> C[🎯 Product Engineering]
-    A --> D[🔒 Security & SRE]
-    B --> E[📦 Infrastructure]
-    B --> F[🔧 Developer Tools]
-    C --> G[📱 Frontend Teams]
-    C --> H[⚡ Backend Teams]
-    D --> I[🛡️ Security Engineering]
-    D --> J[📊 SRE & Observability]
-    
-    style A fill:#1a472a,stroke:#2d5a3d,color:#fff
-    style B fill:#f4a261,stroke:#e76f51,color:#fff
-    style C fill:#f4a261,stroke:#e76f51,color:#fff
-    style D fill:#f4a261,stroke:#e76f51,color:#fff
+| Product | Description | Demo URL | Repo |
+|---|---|---|---|
+| 4Good Product 1 | *(Description)* | [Demo](#) | [Repo](#) |
+| 4Good Product 2 | *(Description)* | [Demo](#) | [Repo](#) |
+| 4Good Product 3 | *(Description)* | [Demo](#) | [Repo](#) |
+
+> All product demos, live environments, and staging URLs are maintained in the [Wiki → Environments](wiki-link).
+
+---
+
+## Organisation Structure
+
+```
+4Good.AI (GitHub Organisation)
+│
+├── .github/                    ← Org-level templates, workflows, shared configs
+├── org-handbook (this repo)    ← Central handbook, standards, non-repo docs
+├── product-1/
+├── product-2/
+├── product-3/
+└── shared-libs/
 ```
 
-</div>
+**Teams:**
+- **Platform & Infrastructure** — shared services, cloud, DevOps
+- **Product Engineering** — frontend, backend per product line
+- **Security & SRE** — reliability, on-call, compliance
+- **QA** — quality processes, test frameworks
 
-<table>
-<tr>
-<td width="50%">
-
-### 👥 **Team Structure**
-- **Org chart** [📎 View Chart](org-chart.html)
-- **Departments & Teams** with domain ownership
-- **Reporting lines** and cross-team interfaces
-- **Key shared services** (Platform/Infra/Security/Data/QA)
-
-</td>
-<td width="50%">
-
-### 🔗 **Team Dependencies**
-- **Internal service dependencies**
-- **Cross-team collaboration frameworks**
-- **Escalation paths and ownership**
-- **Service level expectations**
-
-</td>
-</tr>
-</table>
+Each team links back to this central handbook. Team-specific docs live in their own repos but must reference standards defined here.
 
 ---
 
-## ⚖️ **Governance & Decision Making**
+## How We Work — Systems & Flows
 
-<div align="center">
+### The Core Flow
 
-<img src="https://img.shields.io/badge/📋_Decision_Authority-Defined-1a472a?style=for-the-badge" alt="Decision Authority">
-<img src="https://img.shields.io/badge/🔄_RFC_Process-Active-2d5a3d?style=for-the-badge" alt="RFC Process">
-<img src="https://img.shields.io/badge/🚨_Escalation_Paths-Clear-f4a261?style=for-the-badge" alt="Escalation Paths">
+```
+Discussion → Issue → PR → Deploy → Wiki
+```
 
-</div>
+- **Discussions** are where ideas, proposals, infrastructure decisions, and process questions begin. We talk first before we create work items.
+- **Issues** are created from discussions once there is clarity and agreement on what needs to be done.
+- **PRs** are linked to issues and go through review before merge.
+- **Deploy** follows the release pipeline.
+- **Wiki** captures the outcome — decisions, architecture, learnings — for future reference.
 
-<table>
-<tr>
-<td width="50%">
+> **Key principle:** Discussions are for thinking. Issues are for doing. Wiki is for remembering.
 
-### 🎯 **Decision Framework**
-- **Decision authority matrix** by role/level
-- **Proposal/RFC/design-doc process**
-- **Architecture review requirements**
-- **Security review workflows**
-
-</td>
-<td width="50%">
-
-### 🔄 **Process Excellence**
-- **Conflict resolution procedures**
-- **Escalation paths and timelines**
-- **Approval workflows documentation**
-- **Stakeholder engagement framework**
-
-</td>
-</tr>
-</table>
+We prioritise discussing *what we are solving and why* over reporting *how fast we are moving*. Velocity is an outcome of clarity, not a goal in itself.
 
 ---
 
-## 📐 **Standards & Conventions**
+## Project Planning & Sprint Structure
 
-<div align="center">
+### Org-Level Project Plans
 
-<img src="https://img.shields.io/badge/💻_Coding_Standards-Enforced-1a472a?style=for-the-badge" alt="Coding Standards">
-<img src="https://img.shields.io/badge/🔀_Git_Workflows-Defined-2d5a3d?style=for-the-badge" alt="Git Workflows">
-<img src="https://img.shields.io/badge/📊_API_Standards-Published-f4a261?style=for-the-badge" alt="API Standards">
+Every product team maintains **two project plans** in the org repo:
 
-</div>
+1. **Feature Release Plan** — tracks upcoming features, milestones, timelines
+2. **Bug Tracker** — primarily for production bugs; dev environment bugs tracked separately
 
-<table>
-<tr>
-<td width="33%">
+Plans live at the org level and individual team repos link into them. This gives leadership visibility across all teams in one place.
 
-### 💻 **Development Standards**
-- **Coding & style guides** by language
-- **Repository structure & naming**
-- **Branching & Git workflows**
-- **Versioning policies**
+### Sprint Structure
 
-</td>
-<td width="33%">
+- **Sprint duration:** 2 weeks (agreed during Lunch Demo — Shrijul's proposal adopted)
+- **Sprint planning** happens between the team and the org repo project board
+- **Sprint retro** uses the sprint plan to show what was completed, what was deferred, and why
 
-### 🔧 **Operational Standards**
-- **Logging & instrumentation**
-- **Environment naming conventions**
-- **Deployment tagging standards**
-- **Dependency management**
+### Milestones
 
-</td>
-<td width="33%">
+Each milestone contains:
+- Sub-issues broken down by individual
+- Tasks assigned clearly with owners
+- A delivery date tied to a release or fix window
 
-### 📈 **Quality Standards**
-- **Backward compatibility policies**
-- **Deprecation procedures**
-- **Performance benchmarks**
-- **Security baselines**
+### Tracking Growth
 
-</td>
-</tr>
-</table>
+We track the following to understand team health over time:
+- Tasks completed per sprint
+- Bugs raised vs bugs resolved
+- Milestone completion rate
+
+This gives us a **trend of growth** — not just point-in-time velocity.
 
 ---
 
-## 🛠️ **Tech Stack & Tools**
+## Issue & Discussion Workflow
 
-<div align="center">
+### Step-by-Step Flow
 
-<img src="https://img.shields.io/badge/🚀_Primary_Tech_Stack-Defined-1a472a?style=for-the-badge" alt="Primary Tech Stack">
-<img src="https://img.shields.io/badge/☁️_Infrastructure-Standardized-2d5a3d?style=for-the-badge" alt="Infrastructure">
-<img src="https://img.shields.io/badge/🔧_Development_Tools-Curated-f4a261?style=for-the-badge" alt="Development Tools">
+```
+1. DISCUSSION (GitHub Discussions)
+   └─ Raise the topic — infra, application, process, etc.
+   └─ Teams discuss, align, and decide
 
-</div>
+2. ISSUE (GitHub Issues)
+   └─ Created from the discussion once scope is clear
+   └─ Tagged with type: Enhancement / Bug / Blank
+   └─ Assigned to milestone and person
+   └─ PR linked when work begins
 
-<table>
-<tr>
-<td width="50%">
+3. DEPLOY
+   └─ PR merged → pipeline runs → deploy tracked on issue
 
-### 🎯 **Core Technologies**
-- **Primary languages & frameworks**
-- **Internal libraries & guidelines**
-- **Infrastructure tools** (cloud, IaC, containers)
-- **Dev toolchain** (IDEs, local environments)
+4. WIKI
+   └─ Outcomes, decisions, architecture captured for future reference
+```
 
-</td>
-<td width="50%">
+### Discussion Categories
 
-### 🔄 **Platform Ecosystem**
-- **CI/CD pipeline & build systems**
-- **Monitoring & observability stack**
-- **Secrets management & security**
-- **Environment specifications**
-
-</td>
-</tr>
-</table>
+| Category | Use For |
+|---|---|
+| Infrastructure | Cloud, DevOps, environment decisions |
+| Application | Feature design, architecture, API contracts |
+| Process | Sprint planning, workflow changes, team norms |
+| Security | Access, compliance, vulnerability disclosures |
 
 ---
 
-## 🎓 **Onboarding & Getting Started**
+## Issue Templates
 
-<div align="center">
+We use three issue templates to keep work items consistent:
 
-### 🚀 **30-60-90 Day Journey**
+### 1. Enhancement
+Used for new features, improvements, and planned changes.
 
-</div>
+Fields: Title, Problem Statement, Proposed Solution, Acceptance Criteria, Linked Discussion, Milestone, Assignee
 
-<table>
-<tr>
-<td align="center" width="33%">
+### 2. Bug
+Used for defects found in production or development.
 
-### 📅 **First 30 Days**
-<img src="https://img.shields.io/badge/Step_1-Account_Setup-1a472a?style=flat-square" alt="Step 1">
-<img src="https://img.shields.io/badge/Step_2-Access_Provisioning-2d5a3d?style=flat-square" alt="Step 2">
-<img src="https://img.shields.io/badge/Step_3-Environment_Setup-f4a261?style=flat-square" alt="Step 3">
-<img src="https://img.shields.io/badge/Step_4-Hello_World-e76f51?style=flat-square" alt="Step 4">
+Fields: Title, Environment (Prod/Dev), Steps to Reproduce, Expected vs Actual Behaviour, Severity (P0/P1/P2), Linked RCA, Assignee
 
-**Focus:** Foundation & Setup
+### 3. Blank
+Use sparingly — only when neither Enhancement nor Bug fits. Prefer structured templates where possible.
 
-</td>
-<td align="center" width="33%">
-
-### 🎯 **First 60 Days**
-<img src="https://img.shields.io/badge/Step_5-Team_Integration-1a472a?style=flat-square" alt="Step 5">
-<img src="https://img.shields.io/badge/Step_6-First_Contribution-2d5a3d?style=flat-square" alt="Step 6">
-<img src="https://img.shields.io/badge/Step_7-Process_Training-f4a261?style=flat-square" alt="Step 7">
-<img src="https://img.shields.io/badge/Step_8-Mentor_Checkin-e76f51?style=flat-square" alt="Step 8">
-
-**Focus:** Contribution & Integration
-
-</td>
-<td align="center" width="33%">
-
-### 🏆 **First 90 Days**
-<img src="https://img.shields.io/badge/Step_9-Full_Ownership-1a472a?style=flat-square" alt="Step 9">
-<img src="https://img.shields.io/badge/Step_10-Process_Mastery-2d5a3d?style=flat-square" alt="Step 10">
-<img src="https://img.shields.io/badge/Step_11-Career_Planning-f4a261?style=flat-square" alt="Step 11">
-<img src="https://img.shields.io/badge/Step_12-Feedback_Loop-e76f51?style=flat-square" alt="Step 12">
-
-**Focus:** Mastery & Growth
-
-</td>
-</tr>
-</table>
+> All templates are defined in [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/)
 
 ---
 
-## 🔄 **Processes & Workflows**
+## Bug Triage & Resolution
 
-<div align="center">
+Every bug goes through three stages:
 
-<img src="https://img.shields.io/badge/🔄_Development_Lifecycle-Defined-1a472a?style=for-the-badge" alt="Development Lifecycle">
-<img src="https://img.shields.io/badge/🚀_Release_Process-Standardized-2d5a3d?style=for-the-badge" alt="Release Process">
-<img src="https://img.shields.io/badge/🛡️_Incident_Management-Proven-f4a261?style=for-the-badge" alt="Incident Management">
+### Stage 1 — Triage
+Assign a priority level:
+- **P0** — Critical. Production is down or severely impacted. Drop everything.
+- **P1** — High. Major feature broken. Fix within current sprint.
+- **P2** — Medium. Non-critical issue. Schedule in next sprint.
 
-</div>
+### Stage 2 — RCA (Root Cause Analysis)
+Identify where the issue lives:
+- **Ground Level** — code logic, service behaviour
+- **Data Access** — database queries, data integrity
+- **User Session** — auth, session management, permissions
 
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 **Core Processes**
-- **Feature development lifecycle**
-- **Release & deployment pipeline**
-- **Hotfix & rollback procedures**
-- **Testing strategy & frameworks**
-
-</td>
-<td width="50%">
-
-### 🛡️ **Operational Excellence**
-- **Incident management & postmortems**
-- **Change management & approvals**
-- **Service ownership & on-call**
-- **SLA/SLO definitions & tracking**
-
-</td>
-</tr>
-</table>
+### Stage 3 — Resolution
+Fix is implemented, reviewed, deployed, and documented. Outcome logged in Wiki.
 
 ---
 
-## 📚 **Documentation & Knowledge Base**
+## Team KRAs
 
-<div align="center">
+Each team defines Key Result Areas that align with org-level goals. KRAs are reviewed every quarter.
 
-<img src="https://img.shields.io/badge/📖_Documentation_Standards-Defined-1a472a?style=for-the-badge" alt="Documentation Standards">
-<img src="https://img.shields.io/badge/🔍_Knowledge_Management-Organized-2d5a3d?style=for-the-badge" alt="Knowledge Management">
-<img src="https://img.shields.io/badge/👥_Ownership_Model-Clear-f4a261?style=for-the-badge" alt="Ownership Model">
+| Area | What We Measure |
+|---|---|
+| Reliability | Uptime, MTTR, incident frequency |
+| Delivery | Milestone completion rate, sprint throughput |
+| Quality | Bug rate, test coverage, P0/P1 incidents |
+| Collaboration | PR review turnaround, documentation completeness |
+| Growth | New contributors onboarded, knowledge shared |
 
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏗️ **Documentation Framework**
-- **Documentation locations & tools**
-- **Style guides & standards**
-- **Structure & taxonomy**
-- **Ownership & review cycles**
-
-</td>
-<td width="50%">
-
-### 🔄 **Knowledge Management**
-- **Update & retirement procedures**
-- **Search & discovery systems**
-- **Training materials**
-- **Best practices library**
-
-</td>
-</tr>
-</table>
+> Team KRAs are maintained in the [Wiki → Team KRAs](wiki-link). Each team lead is responsible for updating them each quarter.
 
 ---
 
-## 🔒 **Security, Compliance & Access**
+## Contributing Standards
 
-<div align="center">
+Before contributing to any repo in this organisation, please read:
 
-<img src="https://img.shields.io/badge/🛡️_Security_Policies-Defined-1a472a?style=for-the-badge" alt="Security Policies">
-<img src="https://img.shields.io/badge/🔐_Access_Control-Enforced-2d5a3d?style=for-the-badge" alt="Access Control">
-<img src="https://img.shields.io/badge/📋_Compliance-Framework-f4a261?style=for-the-badge" alt="Compliance">
+- [Contributing Guide](CONTRIBUTING.md) — how to raise issues, submit PRs, and get reviews
+- [Branching & Git Workflow](wiki-link) — naming conventions, branch strategy, commit standards
+- [Code Review Standards](wiki-link) — what reviewers look for, turnaround expectations
+- [Versioning Policy](wiki-link) — how we version releases
 
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🛡️ **Security Framework**
-- **Security policies & principles**
-- **Access control & permissions**
-- **Secrets management & rotation**
-- **Vulnerability management**
-
-</td>
-<td width="50%">
-
-### 📋 **Compliance & Governance**
-- **Data privacy & compliance**
-- **Audit & reporting requirements**
-- **Incident response planning**
-- **Risk management framework**
-
-</td>
-</tr>
-</table>
+**Quick rules:**
+- Always create a Discussion before an Issue for any significant change
+- Link your PR to its Issue
+- No direct pushes to `main` — all changes go through PRs
+- Every PR needs at least one reviewer approval
 
 ---
 
-## 💬 **Communication & Meeting Norms**
+## Code of Conduct
 
-<div align="center">
+We expect everyone in this organisation — contributors, reviewers, leads — to act with respect and professionalism.
 
-<img src="https://img.shields.io/badge/📢_Communication_Channels-Defined-1a472a?style=for-the-badge" alt="Communication Channels">
-<img src="https://img.shields.io/badge/🎯_Meeting_Norms-Established-2d5a3d?style=for-the-badge" alt="Meeting Norms">
-<img src="https://img.shields.io/badge/📊_Reporting_Cadence-Regular-f4a261?style=for-the-badge" alt="Reporting Cadence">
+Full Code of Conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 📢 **Communication Framework**
-- **Channel usage guidelines**
-- **Etiquette & best practices**
-- **Decision documentation**
-- **Meeting note standards**
-
-</td>
-<td width="50%">
-
-### 🎯 **Meeting Excellence**
-- **Standup & planning cadence**
-- **Retrospective formats**
-- **Timeboxing & agenda norms**
-- **Stakeholder communication**
-
-</td>
-</tr>
-</table>
+Summary:
+- Be kind and constructive in reviews and discussions
+- Assume good intent
+- Raise concerns through the right channels
+- Zero tolerance for harassment or exclusion
 
 ---
 
-## 🤝 **Contribution & Change Management**
+## Dev Cookbook
 
-<div align="center">
+The Dev Cookbook is your practical guide to getting things done here. It covers:
 
-<img src="https://img.shields.io/badge/🔄_Change_Process-Defined-1a472a?style=for-the-badge" alt="Change Process">
-<img src="https://img.shields.io/badge/👥_Contribution_Guidelines-Clear-2d5a3d?style=for-the-badge" alt="Contribution Guidelines">
-<img src="https://img.shields.io/badge/📈_Feedback_Loops-Active-f4a261?style=for-the-badge" alt="Feedback Loops">
+- Setting up your local development environment
+- Running services locally and with Docker
+- Common debugging patterns
+- How to use our internal tooling and libraries
+- Environment variables and secrets management
+- How to write and run tests
 
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔄 **Change Management**
-- **Handbook change process (RFC/PR)**
-- **Ownership & approval model**
-- **Versioning & deprecation policies**
-- **Rollout planning framework**
-
-</td>
-<td width="50%">
-
-### 📈 **Continuous Improvement**
-- **Feedback mechanisms**
-- **Policy retrospective process**
-- **Improvement tracking**
-- **Success measurement**
-
-</td>
-</tr>
-</table>
+Full Cookbook: [Wiki → Dev Cookbook](wiki-link)
 
 ---
 
-## 👥 **Contacts & Roles**
+## Quality Management System (QMS)
 
-<div align="center">
+Our QMS defines how we maintain and improve quality across the organisation. It covers:
 
-<img src="https://img.shields.io/badge/🎯_Key_Roles-Defined-1a472a?style=for-the-badge" alt="Key Roles">
-<img src="https://img.shields.io/badge/📞_Escalation_Paths-Clear-2d5a3d?style=for-the-badge" alt="Escalation Paths">
-<img src="https://img.shields.io/badge/🔄_On-call_Rotations-Managed-f4a261?style=for-the-badge" alt="On-call Rotations">
+- Testing strategy (unit, integration, end-to-end)
+- Release quality gates
+- Incident postmortem process
+- Audit and compliance requirements
+- SLA/SLO definitions per product
 
-</div>
-
-<div align="center">
-
-| 👤 **Role / Title** | 🎯 **Responsibilities / Domain** | 📞 **Contact Info** |
-|:---|:---|:---|
-| **CTO / Head of Engineering** | Vision, architecture, major decisions | `@cto` |
-| **Platform Lead** | Shared services, infrastructure | `@platform-lead` |
-| **Security Lead** | Security, audits, compliance | `@security` |
-| **SRE Lead** | On-call, monitoring, reliability | `@sre` |
-| **Engineering Manager** | Team leadership, delivery | `@eng-manager` |
-
-</div>
+Full QMS: [Wiki → Quality Management System](wiki-link)
 
 ---
 
-## 📖 **Glossary & Definitions**
+## Key Links & Resources
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/🔤_Terminology-Standardized-1a472a?style=for-the-badge" alt="Terminology">
-<img src="https://img.shields.io/badge/📚_Acronyms-Defined-2d5a3d?style=for-the-badge" alt="Acronyms">
-<img src="https://img.shields.io/badge/🌐_Domain_Terms-Curated-f4a261?style=for-the-badge" alt="Domain Terms">
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔤 **Core Terminology**
-- **SLO**: Service Level Objective
-- **CD**: Continuous Deployment
-- **Trunk-based Development**
-- **Feature Flagging**
-
-</td>
-<td width="50%">
-
-### 📚 **Process Terms**
-- **RFC**: Request for Comments
-- **SLA**: Service Level Agreement
-- **MTTR**: Mean Time to Recovery
-- **CI/CD**: Continuous Integration/Deployment**
-
-</td>
-</tr>
-</table>
+| Resource | Link |
+|---|---|
+| Organisation Wiki | [Wiki Home](wiki-link) |
+| Dev Cookbook | [Wiki → Dev Cookbook](wiki-link) |
+| QMS | [Wiki → QMS](wiki-link) |
+| Org-Level Project Plans | [GitHub Projects](projects-link) |
+| Shared GitHub Config | [.github repo](.github/) |
+| Issue Templates | [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) |
+| Contributing Guide | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Code of Conduct | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| 4Good Product Demos | [Wiki → Environments](wiki-link) |
+| Team KRAs | [Wiki → Team KRAs](wiki-link) |
 
 ---
 
-## 📝 **Changelog**
+## Contacts & Escalation
 
-<div align="center">
+| Role | Responsibilities | Contact |
+|---|---|---|
+| CTO / Head of Engineering | Vision, architecture, major decisions | `@cto` |
+| Platform Lead | Shared services, infrastructure | `@platform-lead` |
+| Security Lead | Security, audits, compliance | `@security` |
+| SRE Lead | On-call, monitoring, reliability | `@sre` |
+| Engineering Manager | Team leadership, delivery | `@eng-manager` |
 
-<img src="https://img.shields.io/badge/📈_Version_History-Maintained-1a472a?style=for-the-badge" alt="Version History">
-<img src="https://img.shields.io/badge/🔄_Update_Process-Defined-2d5a3d?style=for-the-badge" alt="Update Process">
-<img src="https://img.shields.io/badge/👥_Change_Ownership-Clear-f4a261?style=for-the-badge" alt="Change Ownership">
-
-</div>
-
-<div align="center">
-
-| 📅 **Date** | 👤 **Author** | 📋 **Change Summary** |
-|:---|:---|:---|
-| YYYY-MM-DD | [Name] | Added incident management section |
-| YYYY-MM-DD | [Name] | Updated tech stack documentation |
-| YYYY-MM-DD | [Name] | Revised onboarding process |
-
-</div>
+For incidents: follow the [Incident Response Process](wiki-link)  
+For access issues: contact `@platform-lead`  
+For process questions: raise a Discussion under the Process category
 
 ---
 
-<div align="center">
+## Glossary
 
-## 🎯 **Engineering Excellence in Action**
-
-> ### *"Standardization enables innovation. Consistency fuels velocity. Clarity drives excellence."*
-
-</div>
-
----
-
-<div align="center">
-
-### 🔗 **Quick Navigation**
-
-[![Get Started](https://img.shields.io/badge/🚀_Get_Started-Onboarding-1a472a?style=for-the-badge)](onboarding-guide.html)
-[![Process Docs](https://img.shields.io/badge/📚_Process_Docs-Workflows-2d5a3d?style=for-the-badge)](process-docs.html)
-[![Tech Stack](https://img.shields.io/badge/🛠️_Tech_Stack-Tools-f4a261?style=for-the-badge)](tech-stack.html)
-[![Security](https://img.shields.io/badge/🔒_Security-Policies-e76f51?style=for-the-badge)](security.html)
-[![Contribute](https://img.shields.io/badge/🤝_Contribute-Guidelines-8e44ad?style=for-the-badge)](CONTRIBUTING.md)
+| Term | Meaning |
+|---|---|
+| KRA | Key Result Area — what a team is measured on |
+| P0 / P1 / P2 | Bug priority levels (P0 = critical) |
+| RCA | Root Cause Analysis — understanding why a bug happened |
+| RFC | Request for Comments — a formal proposal for a process or architectural change |
+| SLO | Service Level Objective — internal reliability target |
+| SLA | Service Level Agreement — external reliability commitment |
+| MTTR | Mean Time to Recovery — how fast we recover from incidents |
+| Sprint Retro | Sprint Retrospective — team review of what was completed and what to improve |
+| QMS | Quality Management System |
+| Triage | The process of classifying and prioritising bugs |
 
 ---
 
-**Last Updated:** YYYY-MM-DD • **Version:** 2.0  
-**Made with ❤️ by the Engineering Excellence Team**
+*This handbook is a living document. Raise a Discussion or PR to propose changes. All changes go through the standard RFC process.*
 
-</div>
+**Made with care by the 4Good.AI Engineering Team**
