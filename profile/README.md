@@ -29,7 +29,7 @@ We expect everyone in this organisation — contributors, reviewers, leads — t
 
 ## 🍳 4Good Dev Cookbook
 
-Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → Dev Cookbook](#paste-your-dev-cookbook-link-here)
+Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → Dev Cookbook](https://your-cookbook-link)
 
 - Setting up your local development environment
 - Running services locally and with Docker
@@ -46,8 +46,6 @@ Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → 
 
 **Vision:** To be a trusted engineering organisation where great ideas become great products — with discipline, speed, and integrity.
 
-### Core Values
-
 | Value | Description |
 |---|---|
 | 🤝 Shared Ownership | Everyone is responsible for quality |
@@ -59,95 +57,48 @@ Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → 
 
 ## 🌿 PESU Products
 
-All products under the PESU umbrella. Each has its own repo, team, and roadmap — all governed by shared standards in this handbook.
+Click on any product to open its document.
 
-<div align="center">
+```mermaid
+flowchart TD
+    ROOT["🏢 4Good.AI — PESU"]
 
-![PESU Products Tree](pesu_products_tree.png)
+    ROOT --> E["🧪 Evals"]
+    ROOT --> DS["📈 Digital Strategy"]
+    ROOT --> PL["🎓 Placements"]
+    ROOT --> EX["⚗️ Experimental"]
+    ROOT --> AP["🏛️ Alumni Portal"]
+    ROOT --> CG["📚 Course Generation"]
 
-</div>
+    click E "https://your-evals-doc-link" _blank
+    click DS "https://your-digitalstrategy-doc-link" _blank
+    click PL "https://your-placements-doc-link" _blank
+    click EX "https://your-experimental-doc-link" _blank
+    click AP "https://your-alumniportal-doc-link" _blank
+    click CG "https://your-coursegeneration-doc-link" _blank
 
-### 🧪 Evals
-> AI evaluation & benchmarking platform
+    classDef root    fill:#0f1e38,stroke:#3b82f6,stroke-width:3px,color:#93c5fd
+    classDef evals   fill:#0f2a1e,stroke:#16a34a,stroke-width:2px,color:#4ade80
+    classDef digital fill:#1e1a0f,stroke:#d97706,stroke-width:2px,color:#fbbf24
+    classDef place   fill:#0f1a2e,stroke:#3b82f6,stroke-width:2px,color:#60a5fa
+    classDef exper   fill:#1a0f2e,stroke:#8b5cf6,stroke-width:2px,color:#a78bfa
+    classDef alumni  fill:#1a0f14,stroke:#ec4899,stroke-width:2px,color:#f472b6
+    classDef course  fill:#0a1e22,stroke:#06b6d4,stroke-width:2px,color:#22d3ee
 
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-evals-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-evals-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-evals-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-evals-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-evals-bug-tracker-link-here) |
-
----
-
-### 📈 Digital Strategy
-> Strategic insights & analytics tools
-
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-digital-strategy-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-digital-strategy-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-digital-strategy-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-digital-strategy-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-digital-strategy-bug-tracker-link-here) |
-
----
-
-### 🎓 Placements
-> Career placement & recruitment system
-
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-placements-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-placements-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-placements-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-placements-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-placements-bug-tracker-link-here) |
-
----
-
-### ⚗️ Experimental
-> R&D sandbox for new ideas
-
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-experimental-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-experimental-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-experimental-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-experimental-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-experimental-bug-tracker-link-here) |
-
----
-
-### 🏛️ Alumni Portal
-> Alumni network & engagement hub
-
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-alumni-portal-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-alumni-portal-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-alumni-portal-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-alumni-portal-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-alumni-portal-bug-tracker-link-here) |
-
----
-
-### 📚 Course Generation
-> AI-powered curriculum & course builder
-
-| | Link |
-|---|---|
-| 🌐 Demo | [Open Demo](#paste-course-generation-demo-link-here) |
-| 📁 Repo | [Open Repo](#paste-course-generation-repo-link-here) |
-| 📖 Docs | [Open Docs](#paste-course-generation-docs-link-here) |
-| 📋 Project Plan | [Open Project Plan](#paste-course-generation-project-plan-link-here) |
-| 🐛 Bug Tracker | [Open Bug Tracker](#paste-course-generation-bug-tracker-link-here) |
+    class ROOT root
+    class E evals
+    class DS digital
+    class PL place
+    class EX exper
+    class AP alumni
+    class CG course
+```
 
 ---
 
 ## ✅ Quality Management System (QMS)
 
-Our QMS defines how we maintain and improve quality across the organisation. 📖 Full QMS: [Wiki → Quality Management System](#paste-your-qms-link-here)
+Our QMS defines how we maintain and improve quality across the organisation. 📖 Full QMS: [Wiki → QMS](https://your-qms-link)
 
 - Testing strategy (unit, integration, end-to-end)
 - Release quality gates
@@ -159,15 +110,65 @@ Our QMS defines how we maintain and improve quality across the organisation. �
 
 ## 🔗 Key Links & Resources
 
+### 🏢 Organisation
+
 | Resource | Link |
 |---|---|
-| 📖 Organisation Wiki | [Wiki Home](#paste-your-wiki-link-here) |
-| 🍳 Dev Cookbook | [Wiki → Dev Cookbook](#paste-your-dev-cookbook-link-here) |
-| ✅ QMS | [Wiki → Quality Management System](#paste-your-qms-link-here) |
-| ⚙️ Shared GitHub Config | [.github repo](.github/) |
-| 🤝 Contributing Guide | [CONTRIBUTING.md](CONTRIBUTING.md) |
-| 📜 Code of Conduct | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
-| 🚀 4Good Product Demos | [Wiki → Environments](#paste-your-environments-link-here) |
+| 📖 Wiki | [Open →](https://your-wiki-link) |
+| 🍳 Dev Cookbook | [Open →](https://your-cookbook-link) |
+| ✅ QMS | [Open →](https://your-qms-link) |
+| 📋 Project Plan | [Open →](https://your-project-plan-link) |
+| ⚙️ GitHub Config | [Open →](.github/) |
+| 🤝 Contributing Guide | [Open →](CONTRIBUTING.md) |
+| 📜 Code of Conduct | [Open →](CODE_OF_CONDUCT.md) |
+
+---
+
+### 🧪 Evals
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-evals-demo-link) | [Open →](https://your-evals-repo-link) | [Open →](https://your-evals-docs-link) | [Open →](https://your-evals-bugs-link) |
+
+---
+
+### 📈 Digital Strategy
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-digitalstrategy-demo-link) | [Open →](https://your-digitalstrategy-repo-link) | [Open →](https://your-digitalstrategy-docs-link) | [Open →](https://your-digitalstrategy-bugs-link) |
+
+---
+
+### 🎓 Placements
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-placements-demo-link) | [Open →](https://your-placements-repo-link) | [Open →](https://your-placements-docs-link) | [Open →](https://your-placements-bugs-link) |
+
+---
+
+### ⚗️ Experimental
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-experimental-demo-link) | [Open →](https://your-experimental-repo-link) | [Open →](https://your-experimental-docs-link) | [Open →](https://your-experimental-bugs-link) |
+
+---
+
+### 🏛️ Alumni Portal
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-alumniportal-demo-link) | [Open →](https://your-alumniportal-repo-link) | [Open →](https://your-alumniportal-docs-link) | [Open →](https://your-alumniportal-bugs-link) |
+
+---
+
+### 📚 Course Generation
+
+| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|:---:|:---:|:---:|:---:|
+| [Open →](https://your-coursegeneration-demo-link) | [Open →](https://your-coursegeneration-repo-link) | [Open →](https://your-coursegeneration-docs-link) | [Open →](https://your-coursegeneration-bugs-link) |
 
 ---
 
