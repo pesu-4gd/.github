@@ -115,7 +115,7 @@ Our QMS defines how we maintain and improve quality across the organisation. �
 | Resource | Link |
 |---|---|
 | 📖 Wiki | [Open →](https://your-wiki-link) |
-| 🍳 Dev Cookbook | [Open →](https://your-cookbook-link) |
+| 🍳 Dev Cookbook | [Open →]([https://docs.google.com/document/d/1DsGPKS4vCgHryCs0YsakxU2CXliPeTT1qgxOacBtN1E/edit?tab=t.0#heading=h.z6bzhidd4ifi] |
 | ✅ QMS | [Open →](https://your-qms-link) |
 | 📋 Project Plan | [Open →](https://your-project-plan-link) |
 | ⚙️ GitHub Config | [Open →](.github/) |
