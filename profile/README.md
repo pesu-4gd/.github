@@ -59,7 +59,7 @@ Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → 
 
 <div align="center">
 
-![PESU Products](pesu_products_tree.png)
+![PESU Products](pesu_products_tree (2).png)
 
 </div>
 
