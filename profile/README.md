@@ -57,42 +57,13 @@ Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → 
 
 ## 🌿 PESU Products
 
-Click on any product to open its document.
+<div align="center">
 
-```mermaid
-flowchart TD
-    ROOT["🏢 4Good.AI — PESU"]
+![PESU Products](pesu_products_tree.png)
 
-    ROOT --> E["🧪 Evals"]
-    ROOT --> DS["📈 Digital Strategy"]
-    ROOT --> PL["🎓 Placements"]
-    ROOT --> EX["⚗️ Experimental"]
-    ROOT --> AP["🏛️ Alumni Portal"]
-    ROOT --> CG["📚 Course Generation"]
+</div>
 
-    click E "https://your-evals-doc-link" _blank
-    click DS "https://your-digitalstrategy-doc-link" _blank
-    click PL "https://your-placements-doc-link" _blank
-    click EX "https://your-experimental-doc-link" _blank
-    click AP "https://your-alumniportal-doc-link" _blank
-    click CG "https://your-coursegeneration-doc-link" _blank
-
-    classDef root    fill:#0f1e38,stroke:#3b82f6,stroke-width:3px,color:#93c5fd
-    classDef evals   fill:#0f2a1e,stroke:#16a34a,stroke-width:2px,color:#4ade80
-    classDef digital fill:#1e1a0f,stroke:#d97706,stroke-width:2px,color:#fbbf24
-    classDef place   fill:#0f1a2e,stroke:#3b82f6,stroke-width:2px,color:#60a5fa
-    classDef exper   fill:#1a0f2e,stroke:#8b5cf6,stroke-width:2px,color:#a78bfa
-    classDef alumni  fill:#1a0f14,stroke:#ec4899,stroke-width:2px,color:#f472b6
-    classDef course  fill:#0a1e22,stroke:#06b6d4,stroke-width:2px,color:#22d3ee
-
-    class ROOT root
-    class E evals
-    class DS digital
-    class PL place
-    class EX exper
-    class AP alumni
-    class CG course
-```
+> 💡 Click a product badge in **Key Links & Resources** below to jump straight to its docs, demo, or repo.
 
 ---
 
@@ -112,63 +83,100 @@ Our QMS defines how we maintain and improve quality across the organisation. �
 
 ### 🏢 Organisation
 
-| Resource | Link |
-|---|---|
-| 📖 Wiki | [Open →](https://your-wiki-link) |
-| 🍳 Dev Cookbook | [Open →](https://docs.google.com/document/d/1DsGPKS4vCgHryCs0YsakxU2CXliPeTT1qgxOacBtN1E/edit?tab=t.0#heading=h.z6bzhidd4ifi) |
-| ✅ QMS | [Open →](https://your-qms-link) |
-| 📋 Project Plan | [Open →](https://your-project-plan-link) |
-| ⚙️ GitHub Config | [Open →](.github/) |
-| 🤝 Contributing Guide | [Open →](CONTRIBUTING.md) |
-| 📜 Code of Conduct | [Open →](CODE_OF_CONDUCT.md) |
+<div align="center">
+
+[![Wiki](https://img.shields.io/badge/📖_Wiki-Home-3b82f6?style=for-the-badge&labelColor=0f1e38)](https://your-wiki-link)
+[![Cookbook](https://img.shields.io/badge/🍳_Dev_Cookbook-Open-f59e0b?style=for-the-badge&labelColor=1e1a0f)](https://your-cookbook-link)
+[![QMS](https://img.shields.io/badge/✅_QMS-Open-22c55e?style=for-the-badge&labelColor=0f2a1e)](https://your-qms-link)
+[![Project Plan](https://img.shields.io/badge/📋_Project_Plan-Open-a78bfa?style=for-the-badge&labelColor=1a0f2e)](https://your-project-plan-link)
+[![Contributing](https://img.shields.io/badge/🤝_Contributing-Guide-ec4899?style=for-the-badge&labelColor=1a0f14)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/📜_Code_of_Conduct-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](CODE_OF_CONDUCT.md)
+
+</div>
 
 ---
 
 ### 🧪 Evals
+> AI Evaluation & Benchmarking Platform
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-evals-demo-link) | [Open →](https://your-evals-repo-link) | [Open →](https://your-evals-docs-link) | [Open →](https://your-evals-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-bugs-link)
+
+</div>
 
 ---
 
 ### 📈 Digital Strategy
+> Strategic Insights & Analytics Tools
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-digitalstrategy-demo-link) | [Open →](https://your-digitalstrategy-repo-link) | [Open →](https://your-digitalstrategy-docs-link) | [Open →](https://your-digitalstrategy-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-bugs-link)
+
+</div>
 
 ---
 
 ### 🎓 Placements
+> Career Placement & Recruitment System
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-placements-demo-link) | [Open →](https://your-placements-repo-link) | [Open →](https://your-placements-docs-link) | [Open →](https://your-placements-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-bugs-link)
+
+</div>
 
 ---
 
 ### ⚗️ Experimental
+> R&D Sandbox for New Ideas
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-experimental-demo-link) | [Open →](https://your-experimental-repo-link) | [Open →](https://your-experimental-docs-link) | [Open →](https://your-experimental-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-bugs-link)
+
+</div>
 
 ---
 
 ### 🏛️ Alumni Portal
+> Alumni Network & Engagement Hub
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-alumniportal-demo-link) | [Open →](https://your-alumniportal-repo-link) | [Open →](https://your-alumniportal-docs-link) | [Open →](https://your-alumniportal-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-bugs-link)
+
+</div>
 
 ---
 
 ### 📚 Course Generation
+> AI-Powered Curriculum & Course Builder
 
-| 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
-|:---:|:---:|:---:|:---:|
-| [Open →](https://your-coursegeneration-demo-link) | [Open →](https://your-coursegeneration-repo-link) | [Open →](https://your-coursegeneration-docs-link) | [Open →](https://your-coursegeneration-bugs-link) |
+<div align="center">
+
+[![Demo](https://img.shields.io/badge/🌐_Demo-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-demo-link)
+[![Repo](https://img.shields.io/badge/📁_Repo-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-repo-link)
+[![Docs](https://img.shields.io/badge/📖_Docs-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-docs-link)
+[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-bugs-link)
+
+</div>
 
 ---
 
