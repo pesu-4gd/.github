@@ -59,7 +59,7 @@ Your practical guide to getting things done here. 📖 Full Cookbook: [Wiki → 
 
 <div align="center">
 
-![PESU Products](pesu_products_tree (2).png)
+![PESU Products](pesu_products_tree.png)
 
 </div>
 
@@ -83,100 +83,22 @@ Our QMS defines how we maintain and improve quality across the organisation. �
 
 ### 🏢 Organisation
 
-<div align="center">
-
-[![Wiki](https://img.shields.io/badge/📖_Wiki-Home-3b82f6?style=for-the-badge&labelColor=0f1e38)](https://your-wiki-link)
-[![Cookbook](https://img.shields.io/badge/🍳_Dev_Cookbook-Open-f59e0b?style=for-the-badge&labelColor=1e1a0f)](https://your-cookbook-link)
-[![QMS](https://img.shields.io/badge/✅_QMS-Open-22c55e?style=for-the-badge&labelColor=0f2a1e)](https://your-qms-link)
-[![Project Plan](https://img.shields.io/badge/📋_Project_Plan-Open-a78bfa?style=for-the-badge&labelColor=1a0f2e)](https://your-project-plan-link)
-[![Contributing](https://img.shields.io/badge/🤝_Contributing-Guide-ec4899?style=for-the-badge&labelColor=1a0f14)](CONTRIBUTING.md)
-[![Code of Conduct](https://img.shields.io/badge/📜_Code_of_Conduct-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](CODE_OF_CONDUCT.md)
-
-</div>
+| 📖 Wiki | 🍳 Dev Cookbook | ✅ QMS | 📋 Project Plan | 🤝 Contributing | 📜 Code of Conduct |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Open →](https://your-wiki-link) | [Open →](https://your-cookbook-link) | [Open →](https://your-qms-link) | [Open →](https://your-project-plan-link) | [Open →](CONTRIBUTING.md) | [Open →](CODE_OF_CONDUCT.md) |
 
 ---
 
-### 🧪 Evals
-> AI Evaluation & Benchmarking Platform
+### Products
 
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-16a34a?style=for-the-badge&labelColor=0f2a1e)](https://your-evals-bugs-link)
-
-</div>
-
----
-
-### 📈 Digital Strategy
-> Strategic Insights & Analytics Tools
-
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-d97706?style=for-the-badge&labelColor=1e1a0f)](https://your-digitalstrategy-bugs-link)
-
-</div>
-
----
-
-### 🎓 Placements
-> Career Placement & Recruitment System
-
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-3b82f6?style=for-the-badge&labelColor=0f1a2e)](https://your-placements-bugs-link)
-
-</div>
-
----
-
-### ⚗️ Experimental
-> R&D Sandbox for New Ideas
-
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-8b5cf6?style=for-the-badge&labelColor=1a0f2e)](https://your-experimental-bugs-link)
-
-</div>
-
----
-
-### 🏛️ Alumni Portal
-> Alumni Network & Engagement Hub
-
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-ec4899?style=for-the-badge&labelColor=1a0f14)](https://your-alumniportal-bugs-link)
-
-</div>
-
----
-
-### 📚 Course Generation
-> AI-Powered Curriculum & Course Builder
-
-<div align="center">
-
-[![Demo](https://img.shields.io/badge/🌐_Demo-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-demo-link)
-[![Repo](https://img.shields.io/badge/📁_Repo-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-repo-link)
-[![Docs](https://img.shields.io/badge/📖_Docs-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-docs-link)
-[![Bugs](https://img.shields.io/badge/🐛_Bug_Tracker-Open-06b6d4?style=for-the-badge&labelColor=0a1e22)](https://your-coursegeneration-bugs-link)
-
-</div>
+| Product | 🌐 Demo | 📁 Repo | 📖 Docs | 🐛 Bug Tracker |
+|---|:---:|:---:|:---:|:---:|
+| 🧪 **Evals** | [Open →](https://your-evals-demo-link) | [Open →](https://your-evals-repo-link) | [Open →](https://your-evals-docs-link) | [Open →](https://your-evals-bugs-link) |
+| 📈 **Digital Strategy** | [Open →](https://your-digitalstrategy-demo-link) | [Open →](https://your-digitalstrategy-repo-link) | [Open →](https://your-digitalstrategy-docs-link) | [Open →](https://your-digitalstrategy-bugs-link) |
+| 🎓 **Placements** | [Open →](https://your-placements-demo-link) | [Open →](https://your-placements-repo-link) | [Open →](https://your-placements-docs-link) | [Open →](https://your-placements-bugs-link) |
+| ⚗️ **Experimental** | [Open →](https://your-experimental-demo-link) | [Open →](https://your-experimental-repo-link) | [Open →](https://your-experimental-docs-link) | [Open →](https://your-experimental-bugs-link) |
+| 🏛️ **Alumni Portal** | [Open →](https://your-alumniportal-demo-link) | [Open →](https://your-alumniportal-repo-link) | [Open →](https://your-alumniportal-docs-link) | [Open →](https://your-alumniportal-bugs-link) |
+| 📚 **Course Generation** | [Open →](https://your-coursegeneration-demo-link) | [Open →](https://your-coursegeneration-repo-link) | [Open →](https://your-coursegeneration-docs-link) | [Open →](https://your-coursegeneration-bugs-link) |
 
 ---
 
@@ -187,3 +109,4 @@ Our QMS defines how we maintain and improve quality across the organisation. �
 **Last Updated: 2026-03-11 &nbsp;•&nbsp; Version: 2.0 &nbsp;•&nbsp; Made with care by the PESU Engineering Team**
 
 </div>
+
