@@ -76,6 +76,7 @@ Our QMS defines how we maintain and improve quality across the organisation. ðŸ“
 - Incident postmortem process
 - Audit and compliance requirements
 - SLA/SLO definitions per product
+- SDLC and PDLC
 
 ---
 
